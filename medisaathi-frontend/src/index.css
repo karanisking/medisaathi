@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50:  #EFF6FF;
+  --color-brand-100: #DBEAFE;
+  --color-brand-200: #BFDBFE;
+  --color-brand-300: #6EC6F5;
+  --color-brand-400: #3B9FE8;
+  --color-brand-500: #2176C7;
+  --color-brand-600: #1A56A0;
+  --color-brand-700: #104082;
+  --color-brand-800: #0D2E6E;
+  --color-brand-900: #081D47;
+
+  --color-accent:       #5DB83A;
+  --color-accent-light: #A8D96A;
+  --color-accent-dark:  #3D8A24;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Base reset */
+
+
+/* Critical — allow page to scroll on all devices */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F0F7FF;
+  color: #1e293b;
+  -webkit-font-smoothing:  antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Never block scroll at body level */
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar       { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
+
+/* Mobile tap highlight */
+* { -webkit-tap-highlight-color: transparent; }
+
+/* Prevent inputs from zooming on iOS (font-size must be >= 16px on focus) */
+input, select, textarea {
+  font-size: 16px;
+}
+
+@media (min-width: 640px) {
+  input, select, textarea {
+    font-size: 14px;
+  }
+}
