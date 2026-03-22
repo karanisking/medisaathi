@@ -18,7 +18,7 @@ const app = express();
 
 // ── Security ──────────────────────────────────────────────────────────────────
 app.use(helmet());
-const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:5173';
+const CLIENT_URL = process.env.CLIENT_URL || 'https://medisaathi-flax.vercel.app';
 console.log('Allowed CORS origin:', CLIENT_URL);
 app.use(cors({
   origin:      CLIENT_URL,
