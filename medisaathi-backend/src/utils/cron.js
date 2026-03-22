@@ -1,6 +1,6 @@
 import cron from 'node-cron';
-import { QueueState }      from '../models/QueueState.js';
-import { Token }           from '../models/Token.js';
+import { QueueState }      from '../models/queueState.js';
+import { Token }           from '../models/token.js';
 import { getTodayIST }     from './dateUtil.js';
 import { finaliseDayAnalytics } from '../services/analyticsService.js';
 

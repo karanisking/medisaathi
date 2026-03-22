@@ -1,6 +1,6 @@
 import { getIO }          from './socket.js';
-import { Token, TOKEN_STATUS, SKIP_REASON } from '../models/Token.js';
-import { QueueState }     from '../models/QueueState.js';
+import { Token, TOKEN_STATUS, SKIP_REASON } from '../models/token.js';
+import { QueueState }     from '../models/queueState.js';
 import { notifyPatientsNearTurn } from '../services/queueService.js';
 import { updateAnalyticsOnSkip }  from '../services/analyticsService.js';
 import { getTodayIST }    from '../utils/dateUtil.js';

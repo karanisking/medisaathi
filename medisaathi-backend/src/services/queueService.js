@@ -1,6 +1,6 @@
-import { Token, TOKEN_STATUS, SKIP_REASON, ACTIVE_STATUSES } from '../models/Token.js';
-import { QueueState }  from '../models/QueueState.js';
-import { Branch }      from '../models/Branch.js';
+import { Token, TOKEN_STATUS, SKIP_REASON, ACTIVE_STATUSES } from '../models/token.js';
+import { QueueState }  from '../models/queueState.js';
+import { Branch }      from '../models/branch.js';
 import { getTodayIST } from '../utils/dateUtil.js';
 import { emitTurnSoon } from '../socket/queueEvent.js';
 

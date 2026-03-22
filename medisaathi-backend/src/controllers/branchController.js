@@ -1,6 +1,6 @@
-import { Branch }     from '../models/Branch.js';
-import { QueueState } from '../models/QueueState.js';
-import { Token, ACTIVE_STATUSES } from '../models/Token.js';
+import { Branch }     from '../models/branch.js';
+import { QueueState } from '../models/queueState.js';
+import { Token, ACTIVE_STATUSES } from '../models/token.js';
 import { sendSuccess, sendError }  from '../utils/responseUtil.js';
 import { getTodayIST }             from '../utils/dateUtil.js';
 

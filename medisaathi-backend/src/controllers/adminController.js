@@ -1,7 +1,7 @@
-import { Branch }         from '../models/Branch.js';
-import { User, ROLES }    from '../models/User.js';
+import { Branch }         from '../models/branch.js';
+import { User, ROLES }    from '../models/user.js';
 import { AnalyticsDaily } from '../models/analyticsdaily.js';
-import { QueueState }     from '../models/QueueState.js';
+import { QueueState }     from '../models/queueState.js';
 import { sendSuccess, sendError } from '../utils/responseUtil.js';
 import { getTodayIST }    from '../utils/dateUtil.js';
 

@@ -11,7 +11,7 @@ import {
 } from '../controllers/adminController.js';
 import { authenticate }      from '../middleware/authMiddleware.js';
 import { requireRole, requireSameBranch } from '../middleware/roleMiddleware.js';
-import { ROLES } from '../models/User.js';
+import { ROLES } from '../models/user.js';
 import {
   validateCreateBranch,
   validateUpdateBranch,

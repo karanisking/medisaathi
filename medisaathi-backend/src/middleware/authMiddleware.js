@@ -1,6 +1,6 @@
 import { verifyAccessToken } from '../utils/jwtUtil.js';
 import { sendError } from '../utils/responseUtil.js';
-import { User } from '../models/User.js';
+import { User } from '../models/user.js';
 
 export const authenticate = async (req, res, next) => {
   try {

@@ -1,5 +1,5 @@
-import { Token, TOKEN_STATUS, SKIP_REASON, ACTIVE_STATUSES } from '../models/Token.js';
-import { QueueState }   from '../models/QueueState.js';
+import { Token, TOKEN_STATUS, SKIP_REASON, ACTIVE_STATUSES } from '../models/token.js';
+import { QueueState }   from '../models/queueState.js';
 import { sendSuccess, sendError }  from '../utils/responseUtil.js';
 import { getTodayIST }             from '../utils/dateUtil.js';
 import { updateAnalyticsOnComplete, updateAnalyticsOnSkip } from '../services/analyticsService.js';

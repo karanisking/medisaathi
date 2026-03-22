@@ -6,11 +6,11 @@ import {
   completeToken,
   pauseQueue,
   resumeQueue,
-} from '../controllers/StaffController.js';
+} from '../controllers/staffController.js';
 import { authenticate }      from '../middleware/authMiddleware.js';
 import { requireRole, requireSameBranch } from '../middleware/roleMiddleware.js';
 import { validateMongoId, validate } from '../middleware/validateMiddleware.js';
-import { ROLES } from '../models/User.js';
+import { ROLES } from '../models/user.js';
 
 const router = Router();
 

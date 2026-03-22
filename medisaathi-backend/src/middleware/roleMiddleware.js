@@ -1,6 +1,6 @@
 import { sendError } from '../utils/responseUtil.js';
-import { ROLES } from '../models/User.js';
-import { Branch } from '../models/Branch.js';
+import { ROLES } from '../models/user.js';
+import { Branch } from '../models/branch.js';
 
 /**
  * requireRole(...roles)

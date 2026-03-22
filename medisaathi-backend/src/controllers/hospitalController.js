@@ -1,5 +1,5 @@
-import { Hospital } from '../models/Hospital.js';
-import { Branch }   from '../models/Branch.js';
+import { Hospital } from '../models/hospital.js';
+import { Branch }   from '../models/branch.js';
 import { sendSuccess, sendError } from '../utils/responseUtil.js';
 
 // ── GET /api/hospitals ────────────────────────────────────────────────────────

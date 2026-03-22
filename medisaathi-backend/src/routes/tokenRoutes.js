@@ -7,7 +7,7 @@ import {
 } from '../controllers/tokenController.js';
 import { authenticate }  from '../middleware/authMiddleware.js';
 import { requireRole }   from '../middleware/roleMiddleware.js';
-import { ROLES }         from '../models/User.js';
+import { ROLES }         from '../models/user.js';
 import {
   validateJoinQueue,
   validateMongoId,

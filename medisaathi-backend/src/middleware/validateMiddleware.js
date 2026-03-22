@@ -1,6 +1,6 @@
 import { body, param, query, validationResult } from 'express-validator';
-import { PROBLEM_TYPES } from '../models/Token.js';
-import { ROLES } from '../models/User.js';
+import { PROBLEM_TYPES } from '../models/token.js';
+import { ROLES } from '../models/user.js';
 import { sendError } from '../utils/responseUtil.js';
 
 // ── Runner ────────────────────────────────────────────────────────────────────

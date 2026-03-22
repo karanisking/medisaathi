@@ -1,4 +1,4 @@
-import { User, ROLES }    from '../models/User.js';
+import { User, ROLES }    from '../models/user.js';
 import { signAccessToken } from '../utils/jwtUtil.js';
 import { sendSuccess, sendError } from '../utils/responseUtil.js';
 import { verifyAccessToken }      from '../utils/jwtUtil.js';
